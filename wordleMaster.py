@@ -14,9 +14,6 @@ def find_answers(letters, absent, misplaced):
     # open wordle answers file to read
     answers = open("wordle_answers.txt", "r")
 
-    # open lewdle answers file to read
-    # answers = open("lewdle_answers.txt", "r)
-
     possible_ans = []
 
     # code executes in O(N^2) time <-- not ideal
